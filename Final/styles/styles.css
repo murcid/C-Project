@@ -1,0 +1,167 @@
+﻿
+body {
+    background-size: cover;
+    background-image: url('../Images/image4.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:34px;
+    font-family:'Comic Sans MS';
+    color:purple;
+    font-weight:bolder;
+}
+
+.menu {
+    /*background-color:deeppink;
+    color: cornsilk;*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:100%;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ input[type="submit"]
+    {
+     background-color:palevioletred;
+     color:white;
+     font-weight:600;
+     text-align:center;
+     font-size: 20px;
+     border-radius:25%;
+     border: 2px solid white;
+     padding:5px 5px 5px 5px;
+    }
+
+ input[type="submit"]:Hover  
+    {
+     background-color:white;
+     color:palevioletred;
+     font-weight:600;
+     text-align:center;
+     font-size: 20px;
+     border-radius:25%;
+     border: 2px dotted palevioletred;
+     padding:5px 5px 5px 5px;
+    }
+
+.image {
+    width:8%;
+    height: auto;
+    border: 5px solid palevioletred;
+    padding: 5px;
+
+}
+
+ input[type="text"]
+    {
+    text-align:center;
+    color:palevioletred;
+    font-size:16px;
+    font-weight:700;
+    }
+
+ input[type="number"]
+    {
+    text-align:center;
+    color:palevioletred;
+    font-size:16px;
+    font-weight:700;
+    }
+
+ select {
+    text-align:center;
+    color:palevioletred;
+    font-size:16px;
+    font-weight:700;
+ }
+
+ .Product {
+    padding-top:10px;
+    text-decoration:underline;
+    font-weight:800;
+    font-size:24px;
+ }
+
+.quantity {
+    text-align:center;
+}
+
+#TblOrders {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:24px;
+    padding:1px 1px 1px 1px;
+}
+
+#TblOrders td, th {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    padding:2px 20px 5px 50px;
+}
+
+#TblOrders th {
+    font-weight:600;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+#TblOrder {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:24px;
+    padding:1px 1px 1px 1px;
+}
+
+#TblOrder td, th {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    padding:2px 20px 5px 50px;
+}
+
+#TblOrder th {
+    font-weight:600;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+#SecondPart {
+    padding-top:2em;
+}
+
+#SecondPart h3{
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+
+#SecondPart p{
+    
+}
+
+#ThirdPart {
+    padding-top:2em;
+}
+
+#ThirdPart p{
+    font-weight: bold;
+}
+
+.error {
+    color:red;
+}

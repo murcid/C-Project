@@ -1,0 +1,5 @@
+﻿//scripts
+
+$(function () {
+    $("#TBDate").datepicker();
+});
